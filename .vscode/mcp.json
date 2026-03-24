@@ -1,0 +1,11 @@
+{
+  "servers": {
+    "weather-dashboard": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["ts-node-dev", "--transpile-only", "src/mcp-server.ts"],
+      "cwd": "${workspaceFolder}/backend",
+      "disabled": false
+    }
+  }
+}
